@@ -31,13 +31,14 @@ body {
   gap: 25px;
 }
 #btn1{
-  font-size: 28px;
+    font-size: 28px;
     display: flex;
     align-items: center;
     border: none;
     color: #008000;
     font-family: Pretendard;
     background-color: transparent;
+    cursor: pointer;
 }
 #btn2 {
   font-size: 28px;
@@ -45,6 +46,7 @@ body {
   color: #008000;
   font-family: Pretendard;
   background-color: transparent;
+  cursor: pointer;
 }
 #btn3 {
   font-size: 28px;
@@ -52,6 +54,7 @@ body {
   color: #008000;
   font-family: Pretendard;
   background-color: transparent;
+  cursor: pointer;  
 }
 
 

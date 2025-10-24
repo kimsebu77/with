@@ -4,5 +4,286 @@ body{
 .b{
     display: flex;
     flex-direction: row;
-    color: #294;
+}   
+.p{
+    display: flex;
+    flex-direction: column;
+} 
+.homeB{
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent; 
+    border: none; 
+    margin-left: 228px; 
+    margin-top: 95px; 
+    width: 54px; 
+    height: 44px;
+}
+.b1{
+    display: flex;
+    align-items: center; 
+}
+.b2{
+    border: 2.5px solid #C3C3C3;
+    margin-left: 32px;
+    width: 690px;
+    height: 171px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 356px;
+    left: 1002px;
+    border-radius: 14px;
+    border-width: 2.5px;
+}
+.b3{
+    border: 2.5px solid #C3C3C3;
+    margin-top: 20px;
+    margin-left: 32px;
+    width: 690px;
+    height: 171px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 547px;
+    left: 1002px;
+    border-radius: 14px;
+    border-width: 2.5px;
+
+}
+.bookmark{
+    width: 87;
+    height: 87;
+    angle: 0 deg;
+    opacity: 1;
+    top: 331px;
+    left: 244px;
+}
+.f{
+    width: 1019px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-bottom: 0px; margin-left: 228px; margin-top: 32px; width: 1019px; height: 150px;
+    background: #F8F8F8;
+
+    }
+#Frame3{
+    border-radius: 21px;
+    border: 2px solid #008000;
+}
+#Frame9{
+   width: 53;
+    height: 53;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 500px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+#q{
+    color: #008000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#a{
+    color: #008000;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.l{
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    margin-left: 25px;
+    margin-top: 95px;
+    width: 89px;
+    height: 44px;
+}
+.j{
+    margin-top: 110px;
+    margin-left: 47px;
+    width: 398px;
+    height: 836px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #EAEAEA;
+}
+.text1{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+.Frame14{
+    margin-left: 228px;
+    display: flex;
+    width: 742px;
+    padding: 68px 36px 27px 36px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 35px;
+    border: 2.5px solid #C3C3C3;
+}
+.Frame15{
+    display: inline-flex;
+    height: 171px;
+    padding: 0 126px 0 36px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 2.5px solid #E7E7E7;
+    background: #F8F8F8;
+}
+.Frame27{
+    margin-left: 899px;
+    margin-top: 25px;
+    width: 53px;
+    height: 40px;
+    opacity: 1;
+    top: 1990px;
+    left: 970px;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 33px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+/*communicateScreen 전용 css*/
+
+.cFrame17{
+    display: row;
+    flex-direction: column;
+}
+.ctext{
+    margin-top: 109px;
+    margin-left: 228px;
+    width: 635px;
+    height: 74px;
+    opacity: 1;
+    top: 290px;
+    left: 228px;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+.cFrame18{
+    display: row;
+    flex-direction: row;
+}
+.cFrame19{
+    display: row;
+    flex-direction: column;
+}
+.cFrame20{
+    margin-top: 38px;
+    margin-left: 228px  ;
+    width: 1019px;
+    height: 1271px;
+    opacity: 1;
+    top: 458px;
+    left: 228px;
+    background: #F1F1F1;
+
+}
+.cFrame21{
+    flex-direction: column;
+    margin-left: 228px;
+    width: 1019px;
+    height: 642px;
+    opacity: 1;
+    top: 1729px;
+    left: 228px;
+    background: #D6D6D6;
+
+}
+.cFrame22{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 920px;
+    height: 300px;
+    background-color: white;
+    border-radius: 35px;
+}
+.ctext2{
+    margin-top: 12px;
+    margin-left: 21px;
+    width: 74px; 
+    height: 18px; 
+    opacity: 1; 
+    top: 376px; 
+    left: 296px;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.ctext3{
+    width: 109px;
+    height: 27px;
+    opacity: 1;
+    top: 415px;
+    left: 298px;
+    font-family: Pretendard;
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 0px;
+    letter-spacing: 0%;
+}
+.ctext4{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 920px;
+    font-family: Pretendard;
+    font-weight: 250px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 41px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.mento{
+    margin-left: 800px;
+    margin-top: 800px;
+    width: 168px;
+    height: 51px;
+    opacity: 1;
+    top: 1175px;
+    left: 813px;
+    border-radius: 20px;
+    background: #008000;
+}
+.ctext5{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 41px;
+    color: white;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.ctext6{
+
 }

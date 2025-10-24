@@ -19,7 +19,7 @@ body{
     width: 54px; 
     height: 44px;
 }
-.b1{
+#btn1{
     display: flex;
     align-items: center; 
 }

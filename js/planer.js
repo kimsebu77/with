@@ -43,7 +43,7 @@ for (let i = 0; i < 6; i++) { // 최대 6주 (일주일이 6주일 경우도 있
             calendarHTML += '<td class="calenderTD"></td>';
         } else {
             // 유효한 날짜일 경우 날짜 표시
-            calendarHTML += `<td class="calenderTD">
+            calendarHTML += `<td class="calenderTD"$>
             <div>
             <p>${dayCounter}</p>
             <p class="day">${daysOfWeek[j]}</p>

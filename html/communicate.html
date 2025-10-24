@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
     <div>
@@ -15,9 +16,9 @@
             <br>
         </div>
         <div class="b">
-            <button class = "homeB" onclick="location.href='main.html'">홈</button>
-            <button class = "l">게시판</button>
-            <button class = "l">플래너</button>
+            <button id="btn1" onclick="location.href='main.html'" style="margin-left: 228px; margin-top: 100px;">홈</button>
+            <button id="btn2" onclick="location.href='communicate.html'" style="margin-top: 100px;">게시판</button>
+            <button id="btn3" onclick="location.href='planer.html'" style="margin-top: 100px;">플래너</button>
             <br>
         </div>
 
@@ -58,7 +59,12 @@
                 
                     <div class = "p">
                         <div style="background: #F8F8F8; margin-bottom: 0px; margin-left: 228px; margin-top: 44px; width: 1019px; height: 150px;">
-                            <button style="font-weight: bold; font-size: 15px;background-color: transparent; border: none; " onclick="location.href='comScreen.html'">3모 준비 하는데 도와줄 분 구해요.</button>
+                            <button style="font-weight: bold; font-size: 15px;background-color: transparent; border: none; " onclick="location.href='comScreen.html'">
+                                <div class = "p">
+                                    <span class ="text0">ㅇㅇㅇ</span>
+                                    <span class="text2">3모 준비 하는데 도와줄 분 구해요.</span>
+                                </div>
+                            </button>
                         </div>
                         <div class="f"></div>
                         <div class="f">게시물 3</div>
@@ -69,7 +75,7 @@
                     </div>
                 </div>
                 <div class = "j" >
-                    <span style="display: inline-block; font-size: 50px; font-weight: bold; margin-left: 40px; margin-top: 20px;">CHAT</span>
+                    <span style="display: inline-block; font-size: 50px; font-weight: bold; margin-left: 40px; margin-top: 20px;">MENTOR</span>
                 </div>
             </div>
         </div>

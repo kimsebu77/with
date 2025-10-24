@@ -167,6 +167,14 @@ body{
     letter-spacing: 0%;
     vertical-align: bottom;
 }
+.Frame99{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 100px;
+    background: #DEDEDE;
+
+}
 /*communicateScreen 전용 css*/
 
 .cFrame17{
@@ -225,7 +233,7 @@ body{
     margin-top: 50px;
     margin-left: 50px;
     width: 920px;
-    height: 300px;
+    height: 250px;
     background-color: white;
     border-radius: 35px;
 }
@@ -295,5 +303,9 @@ body{
     vertical-align: middle;
 }
 .ctext6{
+    margin-left: 10px;
     font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -40px;
 }

@@ -14,6 +14,7 @@ body{
     align-items: center; 
 }
 .b2{
+    border: 2.5px solid #C3C3C3;
     margin-left: 32px;
     width: 690px;
     height: 171px;
@@ -25,6 +26,7 @@ body{
     border-width: 2.5px;
 }
 .b3{
+    border: 2.5px solid #C3C3C3;
     margin-top: 20px;
     margin-left: 32px;
     width: 690px;
@@ -51,6 +53,7 @@ body{
     flex-shrink: 0;
     margin-bottom: 0px; margin-left: 228px; margin-top: 32px; width: 1019px; height: 150px;
     background: #F8F8F8;
+
     }
 #Frame3{
     border-radius: 21px;
@@ -98,12 +101,14 @@ body{
     height: 836px;
     flex-shrink: 0;
     border-radius: 14px;
-    background: #939393;
+    background: #EAEAEA;
 }
 .text1{
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 35px;
+    width: 100%;
+    border-bottom: 2px solid gray;
 }
 .Frame14{
     margin-left: 228px;
@@ -113,7 +118,6 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 19px;
     border-radius: 35px;
     border: 2.5px solid #C3C3C3;
 }
@@ -128,13 +132,20 @@ body{
     background: #F8F8F8;
 }
 .Frame27{
-    margin-left: 599px;
+    margin-left: 899px;
     margin-top: 25px;
-    width: 277px; 
-    height: 44px; 
-    angle: 0 deg; 
+    width: 53px;
+    height: 40px;
+    angle: 0 deg;
     opacity: 1;
-    top: 1994px; 
-    left: 599px; 
-    background: #939393;
+    top: 1990px;
+    left: 970px;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 33px;
+    leading-trim: both;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
 }

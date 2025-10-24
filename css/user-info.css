@@ -1,0 +1,43 @@
+.user-info{
+    width: 388px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 1px solid #656565;
+    background: #FCFCFC;
+    margin-top: 95px;
+}
+.memoinfo{
+    width: 388px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    border: 1px solid #656565;
+    background: #FCFCFC;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.user-info-content{
+    display: flex;
+    align-items: center;
+}
+.Timer{
+    width: 224px;
+    height: 348px;
+    flex-shrink: 0;
+    background: #B8B8B8;
+}
+.barT{
+    display: flex;
+    flex-direction: row;
+}
+.bar{
+    width: 90;
+    height: 90;
+}
+.MEMO{
+    margin-left: 21px;
+}
+.Person{
+    margin-left: 30px;
+}

@@ -5,13 +5,15 @@ body {
   margin :0 228px;
   margin-top: 34px;
 }
-
-.header {
+.header{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
+.buttons{
+  margin-top: 95px;
+  gap: 25px;
+}
 #name{
   color: #008000;
   text-align: center;
@@ -31,7 +33,6 @@ body {
   width: 53px;
   height: 53px;
 }
-
 .buttons{
   margin-top: 95px;
   gap: 25px;
@@ -60,78 +61,43 @@ body {
   height: 44px;
   background-color: transparent;
 }
-.carImg{
-  display: flex;
-  flex-direction: row;
-}
-.main{
-  display: flex;
-  margin-top: 52px;
-  gap: 67px;
-}
-.menu{
-  color: #008000;
-  font-family: Pretendard;
-  font-size: 37px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin: 0;
-}
-.onImgDiv{
-  background-color: red;
-}
-#on{
-  width: 129px;
-  height: 300px;
-}
-.mainImgDiv{
-  width: 972px;
-  height: 371px;
-  background-color: blue;
-}
-#pi{
-  width: 971px;
-  height: 371px;
-}
+#calendar td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 149px;
+  height:190px;
+  box-sizing: border-box;
+padding: 20px;
 
-
-#calendar {
-  font-family: 'Pretendard', sans-serif;
-  text-align: center;
-  color: #333;
 }
-
 #calendar h2 {
   font-size: 24px;
   color: #2c3e50;
   margin-bottom: 10px;
 }
 
-#calendar table {
-  width: 100%;
-  border-collapse: collapse;
+.calenderTD{
+    padding: 20px;
 }
 
-#calendar th {
-  background-color: #f5f5f5;
-  color: #555;
-  padding: 8px;
-  font-weight: bold;
+.calenderTD > div {
+ display: flex;
+ flex-direction: column;
+ gap: 84px;
 }
 
-#calendar td {
-  padding: 10px;
-  border: 1px solid #ddd;
-  font-size: 16px;
+.calenderTD > div > .day {
+    color: #CC2F2F;
+    font-size: 25px;
+    text-align: right
 }
 
-#calendar th:nth-child(1),
-#calendar td:nth-child(1) {
-  color: red;
+p {
+    margin: 0
 }
-
-#calendar th:nth-child(7),
-#calendar td:nth-child(7) {
-  color: blue;
+.calendarbox{
+    gap: 33px;
+    display: flex;
+    flex-direction: row;
 }

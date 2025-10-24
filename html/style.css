@@ -1,8 +1,399 @@
-body{   
-    margin: 0;
+.screen {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1920px;
+  min-height: 2063px;
+  position: relative;
 }
-.b{
-    display: flex;
-    flex-direction: row;
-    color: #294;
+
+.screen .frame {
+  position: absolute;
+  top: 34px;
+  left: 228px;
+  width: 129px;
+  height: 65px;
+  background-color: #929292;
+}
+
+.screen .div {
+  position: absolute;
+  top: 355px;
+  left: 228px;
+  width: 742px;
+  height: 363px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  background-color: #929292;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.screen .frame-2 {
+  margin-left: 36px;
+  width: 55px;
+  height: 49px;
+  background-color: #ababab;
+}
+
+.screen .frame-3 {
+  margin-left: 36px;
+  width: 241px;
+  height: 34px;
+  background-color: #ababab;
+}
+
+.screen .frame-4 {
+  margin-left: 36px;
+  width: 670px;
+  height: 215px;
+  background-color: #ababab;
+}
+
+.screen .frame-5 {
+  position: absolute;
+  top: 356px;
+  left: 1002px;
+  width: 690px;
+  height: 171px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #929292;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.screen .frame-6 {
+  position: absolute;
+  top: 547px;
+  left: 1002px;
+  width: 690px;
+  height: 171px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #929292;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  top: 291px;
+  left: 228px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #008000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .frame-7 {
+  position: absolute;
+  top: 828px;
+  left: 228px;
+  width: 870px;
+  height: 37px;
+  background-color: #929292;
+}
+
+.screen .frame-8 {
+  position: absolute;
+  top: 909px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  background-color: #929292;
+}
+
+.screen .frame-9 {
+  position: absolute;
+  top: 26px;
+  left: 28px;
+  background-color: #ababab;
+  width: 563px;
+  height: 45px;
+}
+
+.screen .frame-10 {
+  left: 28px;
+  position: absolute;
+  top: 86px;
+  width: 465px;
+  height: 26px;
+  background-color: #ababab;
+}
+
+.screen .frame-11 {
+  left: 609px;
+  position: absolute;
+  top: 26px;
+  width: 133px;
+  height: 26px;
+  background-color: #ababab;
+}
+
+.screen .frame-12 {
+  position: absolute;
+  top: 1091px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  background-color: #929292;
+}
+
+.screen .frame-13 {
+  position: absolute;
+  top: 26px;
+  left: 30px;
+  width: 563px;
+  height: 45px;
+  background-color: #ababab;
+}
+
+.screen .frame-14 {
+  position: absolute;
+  top: 86px;
+  left: 30px;
+  width: 465px;
+  height: 26px;
+  background-color: #ababab;
+}
+
+.screen .frame-15 {
+  position: absolute;
+  top: 26px;
+  left: 611px;
+  width: 133px;
+  height: 26px;
+  background-color: #ababab;
+}
+
+.screen .frame-16 {
+  position: absolute;
+  top: 1273px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  background-color: #929292;
+}
+
+.screen .frame-17 {
+  position: absolute;
+  top: 1455px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  background-color: #929292;
+}
+
+.screen .frame-wrapper {
+  position: absolute;
+  top: 1638px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  display: flex;
+  background-color: #929292;
+}
+
+.screen .frame-18 {
+  margin-top: 19px;
+  margin-left: 30px;
+  background-color: #cbcbcb;
+  width: 563px;
+  height: 45px;
+}
+
+.screen .frame-19 {
+  position: absolute;
+  top: 1640px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  background-color: #929292;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  top: 1822px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  display: flex;
+  background-color: #929292;
+}
+
+.screen .frame-20 {
+  margin-top: 12px;
+  margin-left: 30px;
+  background-color: #cbcbcb;
+  width: 563px;
+  height: 45px;
+}
+
+.screen .frame-21 {
+  position: absolute;
+  top: 1823px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  display: flex;
+  background-color: #929292;
+}
+
+.screen .frame-22 {
+  position: absolute;
+  top: 1823px;
+  left: 228px;
+  width: 1019px;
+  height: 150px;
+  background-color: #929292;
+}
+
+.screen .frame-23 {
+  position: absolute;
+  top: 26px;
+  left: 31px;
+  background-color: #ababab;
+  width: 563px;
+  height: 45px;
+}
+
+.screen .frame-24 {
+  left: 31px;
+  position: absolute;
+  top: 86px;
+  width: 465px;
+  height: 26px;
+  background-color: #ababab;
+}
+
+.screen .frame-25 {
+  left: 612px;
+  position: absolute;
+  top: 26px;
+  width: 133px;
+  height: 26px;
+  background-color: #ababab;
+}
+
+.screen .frame-26 {
+  position: absolute;
+  top: 1994px;
+  left: 599px;
+  width: 277px;
+  height: 44px;
+  background-color: #929292;
+}
+
+.screen .frame-27 {
+  position: absolute;
+  top: 828px;
+  left: 1141px;
+  width: 106px;
+  height: 37px;
+  background-color: #929292;
+}
+
+.screen .img {
+  position: absolute;
+  top: 828px;
+  left: 1294px;
+  width: 398px;
+  height: 836px;
+}
+
+.screen .frame-28 {
+  position: absolute;
+  top: 40px;
+  left: 1638px;
+  width: 53px;
+  height: 53px;
+  border-radius: 500px;
+  background-image: url(./img/image-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .view {
+  display: flex;
+  width: 574px;
+  height: 52px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 41px;
+  left: 421px;
+  border-radius: 21px;
+  border: 2px solid;
+  border-color: #008000;
+}
+
+.screen .bitcoin-icons-search {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  aspect-ratio: 1;
+}
+
+.screen .group {
+  position: relative;
+  width: 65.70%;
+  height: 65.70%;
+  top: 17.95%;
+  left: 17.95%;
+}
+
+.screen .vector {
+  position: absolute;
+  width: 82.44%;
+  height: 82.44%;
+  top: 0;
+  left: 0;
+}
+
+.screen .vector-2 {
+  position: absolute;
+  width: 34.99%;
+  height: 34.99%;
+  top: 65.01%;
+  left: 65.01%;
+}
+
+.screen .tab-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 48px;
+  position: absolute;
+  top: 204px;
+  left: 228px;
+}
+
+.screen .text-wrapper-2 {
+  color: #008000;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+  color: #838383;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
 }

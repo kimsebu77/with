@@ -12,8 +12,7 @@ body{
 .homeB{
     cursor: pointer;
     font-size: 15px;
-    background-color: 
-    transparent; 
+    background-color: transparent; 
     border: none; 
     margin-left: 228px; 
     margin-top: 95px; 
@@ -147,7 +146,6 @@ body{
     margin-top: 25px;
     width: 53px;
     height: 40px;
-    angle: 0 deg;
     opacity: 1;
     top: 1990px;
     left: 970px;
@@ -155,8 +153,137 @@ body{
     font-weight: 600px;
     font-style: SemiBold;
     font-size: 33px;
-    leading-trim: both;
     line-height: 100%;
     letter-spacing: 0%;
     vertical-align: bottom;
+}
+/*communicateScreen 전용 css*/
+
+.cFrame17{
+    display: row;
+    flex-direction: column;
+}
+.ctext{
+    margin-top: 109px;
+    margin-left: 228px;
+    width: 635px;
+    height: 74px;
+    opacity: 1;
+    top: 290px;
+    left: 228px;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+.cFrame18{
+    display: row;
+    flex-direction: row;
+}
+.cFrame19{
+    display: row;
+    flex-direction: column;
+}
+.cFrame20{
+    margin-top: 38px;
+    margin-left: 228px  ;
+    width: 1019px;
+    height: 1271px;
+    opacity: 1;
+    top: 458px;
+    left: 228px;
+    background: #F1F1F1;
+
+}
+.cFrame21{
+    flex-direction: column;
+    margin-left: 228px;
+    width: 1019px;
+    height: 642px;
+    opacity: 1;
+    top: 1729px;
+    left: 228px;
+    background: #D6D6D6;
+
+}
+.cFrame22{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 920px;
+    height: 300px;
+    background-color: white;
+    border-radius: 35px;
+}
+.ctext2{
+    margin-top: 12px;
+    margin-left: 21px;
+    width: 74px; 
+    height: 18px; 
+    opacity: 1; 
+    top: 376px; 
+    left: 296px;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.ctext3{
+    width: 109px;
+    height: 27px;
+    opacity: 1;
+    top: 415px;
+    left: 298px;
+    font-family: Pretendard;
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 0px;
+    letter-spacing: 0%;
+}
+.ctext4{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 920px;
+    font-family: Pretendard;
+    font-weight: 250px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 41px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.mento{
+    margin-left: 800px;
+    margin-top: 800px;
+    width: 168px;
+    height: 51px;
+    opacity: 1;
+    top: 1175px;
+    left: 813px;
+    border-radius: 20px;
+    background: #008000;
+}
+.ctext5{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 41px;
+    color: white;
+    font-family: Pretendard;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.ctext6{
+
 }

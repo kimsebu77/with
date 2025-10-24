@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .container {
   margin :0 228px;
   margin-top: 34px;
@@ -52,21 +56,71 @@
 .main{
   display: flex;
   margin-top: 52px;
+  gap: 67px;
 }
 .menu{
   color: #008000;
-font-family: Pretendard;
-font-size: 37px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Pretendard;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.onImgDiv{
+  background-color: red;
 }
 #on{
   width: 129px;
   height: 300px;
+}
+.mainImgDiv{
+  width: 972px;
+  height: 371px;
+  background-color: blue;
 }
 #pi{
   width: 971px;
   height: 371px;
 }
 
+
+#calendar {
+  font-family: 'Pretendard', sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+#calendar h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+#calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#calendar th {
+  background-color: #f5f5f5;
+  color: #555;
+  padding: 8px;
+  font-weight: bold;
+}
+
+#calendar td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+#calendar th:nth-child(1),
+#calendar td:nth-child(1) {
+  color: red;
+}
+
+#calendar th:nth-child(7),
+#calendar td:nth-child(7) {
+  color: blue;
+}

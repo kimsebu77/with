@@ -1,34 +1,65 @@
-body{   
-    margin: 0;
+body {
+  margin: 0;
 }
 .b{
-    display: flex;
-    flex-direction: row;
-}   
-.p{
-    display: flex;
-    flex-direction: column;
-} 
-.homeB{
-    cursor: pointer;
-    font-size: 15px;
-    background-color: transparent; 
-    border: none; 
-    margin-left: 228px; 
-    margin-top: 95px; 
-    width: 54px; 
-    height: 44px;
+  display: flex;
+  flex-direction: row;
+}
+#name{
+  color: #008000;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 49px;
+  font-weight: 700;
+  margin: 0;
+}
+#search{
+  margin-left: 344px;
+  border: 2px solid #008000;
+  display: flex;
+  width: 609px;
+  height: 50px;
+  border-radius: 21px;
+}
+#png{
+  margin-left: 350px;
+  width: 53px;
+  height: 53px;
+}
+.buttons{
+  margin-top: 95px;
+  gap: 25px;
 }
 #btn1{
+  font-size: 28px;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    border: none;
+    color: #008000;
+    font-family: Pretendard;
+    background-color: transparent;
 }
+#btn2 {
+  font-size: 28px;
+  border: none;
+  color: #008000;
+  font-family: Pretendard;
+  background-color: transparent;
+}
+#btn3 {
+  font-size: 28px;
+  border: none;
+  color: #008000;
+  font-family: Pretendard;
+  background-color: transparent;
+}
+
+
 .b2{
     border: 2.5px solid #C3C3C3;
     margin-left: 32px;
     width: 690px;
     height: 171px;
-    angle: 0 deg;
     opacity: 1;
     top: 356px;
     left: 1002px;
@@ -41,7 +72,6 @@ body{
     margin-left: 32px;
     width: 690px;
     height: 171px;
-    angle: 0 deg;
     opacity: 1;
     top: 547px;
     left: 1002px;
@@ -52,7 +82,6 @@ body{
 .bookmark{
     width: 87;
     height: 87;
-    angle: 0 deg;
     opacity: 1;
     top: 331px;
     left: 244px;
@@ -292,7 +321,4 @@ body{
     line-height: 100%;
     letter-spacing: 0%;
     vertical-align: middle;
-}
-.ctext6{
-
 }

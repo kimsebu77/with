@@ -1,18 +1,9 @@
 body {
   margin: 0;
 }
-.container {
-  margin :0 228px;
-  margin-top: 34px;
-}
-.header{
+.b{
   display: flex;
   flex-direction: row;
-  align-items: center;
-}
-.buttons{
-  margin-top: 95px;
-  gap: 25px;
 }
 #name{
   color: #008000;
@@ -23,10 +14,12 @@ body {
   margin: 0;
 }
 #search{
-  margin-left: 350px;
+  margin-left: 344px;
+  border: 2px solid #008000;
   display: flex;
-  width: 574px;
-  height: 52px;
+  width: 609px;
+  height: 50px;
+  border-radius: 21px;
 }
 #png{
   margin-left: 350px;
@@ -37,30 +30,31 @@ body {
   margin-top: 95px;
   gap: 25px;
 }
-#btn1 {
-  border: none;
-  color: #008000;
-  width: 54px;
-  height: 44px;
-  font-family: Pretendard;
-  background-color: transparent;
+#btn1{
+  font-size: 28px;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #008000;
+    font-family: Pretendard;
+    background-color: transparent;
 }
 #btn2 {
+  font-size: 28px;
   border: none;
   color: #008000;
-  width: 89px;
-  height: 44px;
   font-family: Pretendard;
   background-color: transparent;
 }
 #btn3 {
+  font-size: 28px;
   border: none;
   color: #008000;
-  width: 89px;
   font-family: Pretendard;
-  height: 44px;
   background-color: transparent;
 }
+
+
 #calendar td {
   padding: 10px;
   border: 1px solid #ddd;
@@ -100,4 +94,24 @@ p {
     gap: 33px;
     display: flex;
     flex-direction: row;
+}
+#Frame3{
+    border-radius: 21px;
+    border: 2px solid #008000;
+}
+#Frame9{
+   width: 53;
+    height: 53;
+    opacity: 1;
+    border-radius: 500px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+#q{
+    color: #008000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
